@@ -22,14 +22,13 @@ h1 {
   text-align: center;
   text-transform: uppercase;
   background: linear-gradient(
-    to right,
-    rgba(116, 108, 108, 1),
-    rgba(0, 0, 0, 1),
-    rgba(13, 1, 1, 0.01)
+    to left,
+    rgb(235, 229, 229),
+    rgb(231, 220, 220),
+    rgba(145, 126, 126, 0.01)
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  -webkit-text-stroke: 1px #fff;
   margin-top: 10px;
 }
 
@@ -37,10 +36,9 @@ h1 span {
   /* border: 1px solid red; */
   font-size: 1rem;
   text-transform: capitalize;
-  color: rgb(128, 128, 128);
   letter-spacing: 4px;
   text-transform: capitalize;
-  -webkit-text-stroke: 0px;
+  
 }
 
 h1 span::after {
@@ -48,7 +46,7 @@ h1 span::after {
   content: "\f25b";
   font-size: 2rem;
   color: rgb(128, 128, 128);
-  -webkit-text-stroke: 1px #fff;
+  -webkit-text-stroke: 1px #5f5a5a;
 }
 
 body .wrapper {
